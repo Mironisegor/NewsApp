@@ -2,20 +2,31 @@
 //  ContentView.swift
 //  Schedule
 //
-//  Created by GRXXVY production on 01.11.2024.
+//  Created by Mironov Egor production on 01.11.2024.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var vm = ViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView() {
+            ScrollView(.vertical, showsIndicators: false) {
+                Text("News")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .padding(.top)
+            }
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack {
+                    ForEach(vm.topNews, id: \.url) { article in
+                        
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
