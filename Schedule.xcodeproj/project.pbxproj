@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2CB3D71D2CD4E59500A63984 /* Schedule */ = {
+		2C636DC32CD5496900EC03A9 /* NewsApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Schedule;
+			path = NewsApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		2CB3D7122CD4E59500A63984 = {
 			isa = PBXGroup;
 			children = (
-				2CB3D71D2CD4E59500A63984 /* Schedule */,
+				2C636DC32CD5496900EC03A9 /* NewsApp */,
 				2CB3D71C2CD4E59500A63984 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2CB3D71D2CD4E59500A63984 /* Schedule */,
+				2C636DC32CD5496900EC03A9 /* NewsApp */,
 			);
 			name = Schedule;
 			packageProductDependencies = (
